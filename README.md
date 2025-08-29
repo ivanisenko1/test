@@ -3,7 +3,6 @@
 git clone https://github.com/ivanisenko1/test.git
 скопировать .env.example в .env
 выполнить `copmoser install`
-выполнить `npm i`
 создать БД `laravel`
 проверить юзера и пароль для БД
 выполнить `php artisan key:generate`
@@ -17,7 +16,7 @@ git clone https://github.com/ivanisenko1/test.git
 
 для получения результатов ендпоит 
 `GET /api/get-results` с параметрами
-`driverNumbers` - массив с номарами водителей
+`driverNumbers` - массив с номерами водителей
 `lapRange` - диапазон кругов в виде "3-33"
 `duration` - типу данных '1','2','3' сектора и без параметра время полного круга
 
